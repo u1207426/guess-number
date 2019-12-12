@@ -11,8 +11,7 @@ while True:
 	if num == r:
 		print('終於猜對了！')
 		break
-	else:
-		if num > r:
-			print('您猜的比答案大')
-		else:
-			print('您猜的比答案小')
+	elif num > r:
+		print('比答案大')
+	elif num < r:
+		print('比答案小')
